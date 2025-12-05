@@ -30,7 +30,7 @@ spec:
     blueGreen:
       activeService: guestbook-ui
       previewService: guestbook-ui-blue-green
-      autoPromotionEnabled: false
+      autoPromotionEnabled: true
       scaleDownDelaySeconds: 10
 ---
 apiVersion: v1
